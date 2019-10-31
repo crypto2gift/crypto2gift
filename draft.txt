@@ -1,0 +1,7 @@
+What can modify the state of users smartcontract:
+
+1) emit from transfer from ERC20. We listen for Transfer Event and he call a balanceOf when received
+2) Deposit
+3) another request price (fee and erc price)
+3) Claim
+
